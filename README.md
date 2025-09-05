@@ -7,9 +7,9 @@
 ---
 
 ## 🧠 Technical Skills
-- **Languages**: Verilog, SystemVerilog, Embedded C, Python, Bash
+- **Languages**: Verilog, SystemVerilog, Embedded C, Python
 - **Tools**: Icarus Verilog, GTKWave, Code Composer Studio, VS Code, Git
-- **Interests**: ASIC Design, RTL Verification, Embedded Firmware, RISC-V
+- **Interests**: RTL Design, Digital Logic Verification, Embedded Systems
 
 ---
 
