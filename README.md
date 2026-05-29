@@ -1,44 +1,42 @@
-# 👋 Hey, I'm Justin Gahona
+# Hey, I'm Justin Gahona
 
-🎓 **Electrical Engineering @ Texas Tech University**  
-🏆 **SDE Program** | Texas Instruments Sponsored  
-🔍 Focus: RTL Design • Verification 
+B.S. Computer Engineering → M.S. Electrical Engineering @ Texas Tech University  
+Texas Instruments SDE Program  
+19 years old | Minneapolis, MN → Lubbock, TX  
+Open to FPGA, embedded systems, firmware, and embedded ML roles
 
----
+## Projects
 
-## 🧠 Technical Skills
-- **Languages**: Verilog, SystemVerilog, Embedded C, Python
-- **Tools**: Icarus Verilog, GTKWave, Code Composer Studio, VS Code, Git
-- **Interests**: RTL Design, Digital Logic Verification, Embedded Systems
+### ECG Arrhythmia Classifier
+Real-time 1-D CNN deployed on two independent embedded targets — STM32F446RE
+via X-CUBE-AI and a Nexys A7-100T FPGA via a hand-written SystemVerilog
+inference pipeline. Trained on MIT-BIH Arrhythmia Database. 98.17% INT8
+accuracy (float32 baseline 98.14%). Added adaptive average pooling to reduce
+FC1 parameters 11× and fit within the STM32F446RE's 512 KB flash constraint.
+FPGA target renders live scrolling ECG + classification label on VGA at 640×480.
 
----
+`PyTorch` `SystemVerilog` `STM32` `FPGA` `C` `Embedded ML`
 
-## 📂 Featured Projects
-
-### 🔹 [16-bit Divider in Verilog](https://github.com/Gahona06/Verilog-16bit-divider)
-Multi-cycle divider using FSM and shift-subtract logic. Modularized into control, datapath, and wrapper.
-
-### 🔹 [8-bit ALU](https://github.com/Gahona06/verilog-8bit-ALU)
-Modular arithmetic and logic unit with individual logic blocks and full testbenches.
+[→ View Repository](https://github.com/justin-gahona/ecg-arrhythmia-classifier)
 
 ---
 
-## 📫 Connect With Me
-- 📍 Based in **Lubbock, TX**
-- 🔗 [LinkedIn](https://linkedin.com/in/justin-gahona)
+### Custom 16-bit RISC CPU with Hardware GPU
+Designed from scratch in SystemVerilog on Basys 3 (Artix-7) FPGA. Custom ISA,
+ALU, register file, memory-mapped GPU with 32-sprite renderer, SPI NOR Flash
+cartridge interface, and Python assembler. Synthesized to 3,448 LUTs at 100 MHz.
+Runs Pong end-to-end as the demonstration application.
 
+`SystemVerilog` `FPGA` `CPU Architecture` `Vivado`
 
-<!--
-**Gahona06/Gahona06** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+[→ View Repository](https://github.com/justin-gahona/fpga-risc-cpu)
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Skills
+**HDL:** SystemVerilog, Verilog  
+**Embedded:** STM32, C, UART, SPI, DMA  
+**ML:** PyTorch, ONNX, INT8 Quantization  
+**Tools:** Vivado, STM32CubeIDE, X-CUBE-AI, KiCad, Git  
+
+🔗 [LinkedIn](https://linkedin.com/in/justin-gahona)
